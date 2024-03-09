@@ -16,12 +16,12 @@ const chat = () => {
         console.log(message)
     }
     return (
-        <div className="bg-gray-800 flex flex-col border h-screen w-screen justify-center">  
-            <div className='flex text-lg justify-center items-center flex-col gap-2 border'>
+        <div className="bg-[#2B2D35] flex flex-col h-screen w-screen justify-center">  
+            <div className='flex text-lg justify-center items-center flex-col gap-2'>
                 <img src={Logo} alt="Virtual Assistant" className="h-24 w-24" />
                 <h1 className='text-center flex text-24 text-white'>How can I help you today?</h1>
             </div>
-            <div className='border'>
+            <div className=''>
                 <div className="flex p-4 justify-center items-center  bg-#2B2D35">
                     <input type='text' placeholder='Ask you Virtual Assistant...' 
                     onChange={(e) => setMessage(e.target.value)}

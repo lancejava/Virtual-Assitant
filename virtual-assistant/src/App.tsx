@@ -6,7 +6,7 @@ import ChatBot from "./components/chat.tsx";
 function App() {
 
   return (
-    <div className='bg-gray-800'>
+    <div>
       <ChatBot/>
     </div>
   );
