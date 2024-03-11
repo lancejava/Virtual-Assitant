@@ -52,7 +52,7 @@ const chat = () => {
         <div className="bg-[#2B2D35] flex flex-col h-screen w-screen items-center justify-center">  
             {/* Landing Page / Top Section*/}
             <div className='h-full w-full flex p-2 justify-between flex-col items-center'>
-                <div>
+                <div className='pb-1'>
                     <h1 className='text-white text-xl font-semibold'>Virtual Assistant</h1>
                 </div>
                 {
@@ -83,7 +83,7 @@ const chat = () => {
                     </div>
                 }
                 {/* Bottom Section */}
-                <div className='gap-10 w-full'>
+                <div className='gap-10 pt-1 w-full'>
                     <div className="flex w-full justify-center items-center gap-2  bg-#2B2D35">
                         <div className='rounded-full items-center flex p-3 justify-between w-4/5 bg-transparent border border-1 border-gray'>
                             <input className='w-full border-0 outline-0 text-white bg-transparent' type='text' placeholder='Message your Virtual Assistant...' 
