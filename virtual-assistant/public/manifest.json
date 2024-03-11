@@ -1,10 +1,14 @@
 {
     "manifest_version": 3,
     "name": "Virtual Assistant",
+    "description": "Ask questions, get answers, and stay productive—all within your browser tab. Your go-to companion for quick info, friendly chat, and seamless browsing.",
     "icons": {
-        "32": "VILogo.png"
+        "16": "VILogo_16.png",
+        "32": "VILogo_32.png",
+        "48": "VILogo_48.png",
+        "128": "VILogo_128.png"
     },
-    "version": "1.0.0",
+    "version": "1.6.0",
     "action":{
         "default_popup": "index.html"
 
