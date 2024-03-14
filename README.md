@@ -1,8 +1,11 @@
 Virtual Assistant Chrome Extension
+
 Overview
+
 The Virtual Assistant Chrome Extension is a productivity tool that provides an AI-powered virtual assistant right in your browser. It leverages the power of ChatGPT API to deliver smart and intuitive responses to your queries and tasks.
 
 Features
+
 AI-Powered Assistance: Utilizes the ChatGPT API to provide intelligent responses and assistance.
 Voice Input: Supports voice input for convenient interaction.
 React UI: Built with React for a smooth and interactive user experience.
@@ -10,7 +13,9 @@ TypeScript: Developed using TypeScript for improved type safety and code maintai
 Tailwind CSS: Styled with Tailwind CSS for fast and responsive UI design.
 Vite: Built with Vite for blazing-fast development and optimized production builds.
 Customizable Settings: Offers customizable settings to tailor the assistant experience to your preferences.
+
 Installation
+
 Clone the repository to your local machine.
 Navigate to the project directory.
 Run npm install to install dependencies.
